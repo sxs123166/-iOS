@@ -137,20 +137,20 @@
     
     
     
-    // NSOperation的使用
-    NSOperationQueue *queue = [[NSOperationQueue alloc] init];
-    // 对Queue做自定义的设置
-    
-    NSBlockOperation *operation = [[NSBlockOperation alloc] init];
-    
-    [operation addExecutionBlock:^{
-        //任务代码
-    }];
-    // 添加 operation
-    [queue addOperation:operation];
-    
-    // 取消全部的Operation
-    [queue cancelAllOperations];
+//    // NSOperation的使用
+//    NSOperationQueue *queue = [[NSOperationQueue alloc] init];
+//    // 对Queue做自定义的设置
+//    
+//    NSBlockOperation *operation = [[NSBlockOperation alloc] init];
+//    
+//    [operation addExecutionBlock:^{
+//        //任务代码
+//    }];
+//    // 添加 operation
+//    [queue addOperation:operation];
+//    
+//    // 取消全部的Operation
+//    [queue cancelAllOperations];
 }
 
 @end

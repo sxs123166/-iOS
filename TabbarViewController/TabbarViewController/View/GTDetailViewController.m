@@ -30,7 +30,7 @@
 //        [navigationController pushViewController:controller animated:YES];
 //    }];
     
-    [GTMediator registerProtol:@protocol(GTDetailViewControllerProtocol) class:[self class]];
+//    [GTMediator registerProtol:@protocol(GTDetailViewControllerProtocol) class:[self class]];
 }
 
 - (instancetype)initWithUrlString:(NSString *)urlString {

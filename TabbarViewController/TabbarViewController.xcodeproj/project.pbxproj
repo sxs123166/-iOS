@@ -19,7 +19,7 @@
 		EB57A1802B7F308E00C68786 /* GTSplashView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB57A17F2B7F308E00C68786 /* GTSplashView.m */; };
 		EB57A1832B7F40D600C68786 /* GTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = EB57A1822B7F40D600C68786 /* GTMediator.m */; };
 		EB57A1CD2B7F8F5500C68786 /* libStaticLibTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB57A1CB2B7F8F5500C68786 /* libStaticLibTest.a */; };
-		EB57A20C2B7F98F800C68786 /* FrameworkTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB57A20B2B7F98F800C68786 /* FrameworkTest.framework */; };
+		EB5951592B8057B40021AD37 /* GTLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5951582B8057B40021AD37 /* GTLocation.m */; };
 		EB5A0C062B7B5F65002DB920 /* GTVedioCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5A0C052B7B5F65002DB920 /* GTVedioCoverView.m */; };
 		EB6667D22B7CB71100E36051 /* GTVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6667D12B7CB71100E36051 /* GTVideoPlayer.m */; };
 		EB667D3C2B7DA4B7009AEFD6 /* GTVideoToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = EB667D3B2B7DA4B7009AEFD6 /* GTVideoToolbar.m */; };
@@ -55,8 +55,8 @@
 		EB57A1812B7F40D600C68786 /* GTMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTMediator.h; sourceTree = "<group>"; };
 		EB57A1822B7F40D600C68786 /* GTMediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTMediator.m; sourceTree = "<group>"; };
 		EB57A1CB2B7F8F5500C68786 /* libStaticLibTest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libStaticLibTest.a; sourceTree = "<group>"; };
-		EB57A1CE2B7F961100C68786 /* StaticLibTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticLibTest.h; sourceTree = "<group>"; };
-		EB57A20B2B7F98F800C68786 /* FrameworkTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FrameworkTest.framework; sourceTree = "<group>"; };
+		EB5951572B8057B40021AD37 /* GTLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTLocation.h; sourceTree = "<group>"; };
+		EB5951582B8057B40021AD37 /* GTLocation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTLocation.m; sourceTree = "<group>"; };
 		EB5A0C042B7B5F65002DB920 /* GTVedioCoverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTVedioCoverView.h; sourceTree = "<group>"; };
 		EB5A0C052B7B5F65002DB920 /* GTVedioCoverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTVedioCoverView.m; sourceTree = "<group>"; };
 		EB6667D02B7CB71100E36051 /* GTVideoPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTVideoPlayer.h; sourceTree = "<group>"; };
@@ -83,7 +83,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2D207586A1E8A1B9A812918 /* libPods-TabbarViewController.a in Frameworks */,
-				EB57A20C2B7F98F800C68786 /* FrameworkTest.framework in Frameworks */,
 				EB57A1CD2B7F8F5500C68786 /* libStaticLibTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,6 +145,8 @@
 				EB57A17F2B7F308E00C68786 /* GTSplashView.m */,
 				EB57A1812B7F40D600C68786 /* GTMediator.h */,
 				EB57A1822B7F40D600C68786 /* GTMediator.m */,
+				EB5951572B8057B40021AD37 /* GTLocation.h */,
+				EB5951582B8057B40021AD37 /* GTLocation.m */,
 			);
 			path = TabbarViewController;
 			sourceTree = "<group>";
@@ -162,8 +163,6 @@
 		EB57A1CA2B7F8F3400C68786 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
-				EB57A20B2B7F98F800C68786 /* FrameworkTest.framework */,
-				EB57A1CE2B7F961100C68786 /* StaticLibTest.h */,
 				EB57A1CB2B7F8F5500C68786 /* libStaticLibTest.a */,
 			);
 			path = Lib;
@@ -328,6 +327,7 @@
 				EB667D3F2B7DEB6A009AEFD6 /* GTScreen.m in Sources */,
 				EB6E85682B42EFBB0075D234 /* GTDetailViewController.m in Sources */,
 				EB26795E2B46EED200DC1F65 /* GTDeleteCellView.m in Sources */,
+				EB5951592B8057B40021AD37 /* GTLocation.m in Sources */,
 				EB6E85652B42B1670075D234 /* GTNormalTableViewCell.m in Sources */,
 				EB317FEB2B41ACAD006A581A /* SecondViewController.m in Sources */,
 				EB317FD82B4172CB006A581A /* ViewController.m in Sources */,
