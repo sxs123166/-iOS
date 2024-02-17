@@ -88,11 +88,25 @@
     
 }
 
+#pragma mark -
+
+- (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
+    // deviceToken注册完成
+    
+    // GTNotification中实现
+    NSLog(@"");
+}
+
+- (void)application:(UIApplication *)application didFailToRegisterForRemoteNotificationsWithError:(NSError *)error {
+    
+}
+
 
 #pragma mark - click
 
 - (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController {
     NSLog(@"tab点击");
+    
 }
 
 
@@ -100,7 +114,7 @@
 
 - (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey, id> *)options {
     NSLog(@"");
-    
+    [self _changeIcon];
     return YES;
 }
 
@@ -135,6 +149,15 @@ void HandleNSException(NSException *exception) {
     __unused NSString *name = [exception name];
     // 存储crash信息
     
+}
+
+#pragma mark -
+- (void)_changeIcon {
+    if([UIApplication sharedApplication].supportsAlternateIcons) {
+        [[UIApplication sharedApplication] setAlternateIconName:@"ICONBLACK" completionHandler:^(NSError * _Nullable error) {
+            NSLog(@"");
+        }];
+    }
 }
 
 @end

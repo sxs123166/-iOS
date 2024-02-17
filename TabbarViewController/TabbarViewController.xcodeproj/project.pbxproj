@@ -21,6 +21,9 @@
 		EB57A1CD2B7F8F5500C68786 /* libStaticLibTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB57A1CB2B7F8F5500C68786 /* libStaticLibTest.a */; };
 		EB5951592B8057B40021AD37 /* GTLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5951582B8057B40021AD37 /* GTLocation.m */; };
 		EB59515C2B8085250021AD37 /* GTNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = EB59515B2B8085250021AD37 /* GTNotification.m */; };
+		EB5951602B80A44D0021AD37 /* readme in Resources */ = {isa = PBXBuildFile; fileRef = EB59515F2B80A44D0021AD37 /* readme */; };
+		EB5951B82B80DA6E0021AD37 /* GTSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5951B72B80DA6E0021AD37 /* GTSearchBar.m */; };
+		EB5951BB2B80E6770021AD37 /* GTCommentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5951BA2B80E6770021AD37 /* GTCommentManager.m */; };
 		EB5A0C062B7B5F65002DB920 /* GTVedioCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5A0C052B7B5F65002DB920 /* GTVedioCoverView.m */; };
 		EB6667D22B7CB71100E36051 /* GTVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6667D12B7CB71100E36051 /* GTVideoPlayer.m */; };
 		EB667D3C2B7DA4B7009AEFD6 /* GTVideoToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = EB667D3B2B7DA4B7009AEFD6 /* GTVideoToolbar.m */; };
@@ -31,6 +34,19 @@
 		EB6E85682B42EFBB0075D234 /* GTDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6E85672B42EFBB0075D234 /* GTDetailViewController.m */; };
 		EB7B5D632B693F6C00673E85 /* GTListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7B5D622B693F6C00673E85 /* GTListItem.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EB5951732B80A7F50021AD37 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		18B0EE664A31ADE9AC50910E /* libPods-TabbarViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TabbarViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,6 +76,15 @@
 		EB5951582B8057B40021AD37 /* GTLocation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTLocation.m; sourceTree = "<group>"; };
 		EB59515A2B8085250021AD37 /* GTNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTNotification.h; sourceTree = "<group>"; };
 		EB59515B2B8085250021AD37 /* GTNotification.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTNotification.m; sourceTree = "<group>"; };
+		EB59515D2B80A0130021AD37 /* TabbarViewController.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TabbarViewController.entitlements; sourceTree = "<group>"; };
+		EB59515F2B80A44D0021AD37 /* readme */ = {isa = PBXFileReference; lastKnownFileType = text; path = readme; sourceTree = "<group>"; };
+		EB5951662B80A7F50021AD37 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		EB5951792B80AA680021AD37 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		EB59517B2B80AA680021AD37 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		EB5951B62B80DA6E0021AD37 /* GTSearchBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTSearchBar.h; sourceTree = "<group>"; };
+		EB5951B72B80DA6E0021AD37 /* GTSearchBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTSearchBar.m; sourceTree = "<group>"; };
+		EB5951B92B80E6770021AD37 /* GTCommentManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTCommentManager.h; sourceTree = "<group>"; };
+		EB5951BA2B80E6770021AD37 /* GTCommentManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTCommentManager.m; sourceTree = "<group>"; };
 		EB5A0C042B7B5F65002DB920 /* GTVedioCoverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTVedioCoverView.h; sourceTree = "<group>"; };
 		EB5A0C052B7B5F65002DB920 /* GTVedioCoverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTVedioCoverView.m; sourceTree = "<group>"; };
 		EB6667D02B7CB71100E36051 /* GTVideoPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTVideoPlayer.h; sourceTree = "<group>"; };
@@ -106,6 +131,9 @@
 			isa = PBXGroup;
 			children = (
 				18B0EE664A31ADE9AC50910E /* libPods-TabbarViewController.a */,
+				EB5951662B80A7F50021AD37 /* EventKit.framework */,
+				EB5951792B80AA680021AD37 /* WidgetKit.framework */,
+				EB59517B2B80AA680021AD37 /* SwiftUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -131,6 +159,8 @@
 		EB317FCF2B4172CB006A581A /* TabbarViewController */ = {
 			isa = PBXGroup;
 			children = (
+				EB59515E2B80A1750021AD37 /* AlternateIcons */,
+				EB59515D2B80A0130021AD37 /* TabbarViewController.entitlements */,
 				EB57A1CA2B7F8F3400C68786 /* Lib */,
 				EB317FD02B4172CB006A581A /* AppDelegate.h */,
 				EB317FD12B4172CB006A581A /* AppDelegate.m */,
@@ -173,9 +203,25 @@
 			path = Lib;
 			sourceTree = "<group>";
 		};
+		EB59515E2B80A1750021AD37 /* AlternateIcons */ = {
+			isa = PBXGroup;
+			children = (
+				EB59515F2B80A44D0021AD37 /* readme */,
+			);
+			path = AlternateIcons;
+			sourceTree = "<group>";
+		};
 		EB5A0C032B7B5E60002DB920 /* VideoController */ = {
 			isa = PBXGroup;
 			children = (
+				EB6E85662B42EFBB0075D234 /* GTDetailViewController.h */,
+				EB6E85672B42EFBB0075D234 /* GTDetailViewController.m */,
+				EB317FD62B4172CB006A581A /* ViewController.h */,
+				EB317FD72B4172CB006A581A /* ViewController.m */,
+				EB317FE92B41ACAD006A581A /* SecondViewController.h */,
+				EB317FEA2B41ACAD006A581A /* SecondViewController.m */,
+				EB6E85602B42A7EB0075D234 /* GTRecommendViewController.h */,
+				EB6E85612B42A7EB0075D234 /* GTRecommendViewController.m */,
 				EB6E855D2B4299AE0075D234 /* GTVedioViewController.h */,
 				EB6E855E2B4299AE0075D234 /* GTVedioViewController.m */,
 				EB5A0C042B7B5F65002DB920 /* GTVedioCoverView.h */,
@@ -202,16 +248,12 @@
 			children = (
 				EB26795C2B46EED200DC1F65 /* GTDeleteCellView.h */,
 				EB26795D2B46EED200DC1F65 /* GTDeleteCellView.m */,
-				EB317FD62B4172CB006A581A /* ViewController.h */,
-				EB317FD72B4172CB006A581A /* ViewController.m */,
-				EB317FE92B41ACAD006A581A /* SecondViewController.h */,
-				EB317FEA2B41ACAD006A581A /* SecondViewController.m */,
-				EB6E85602B42A7EB0075D234 /* GTRecommendViewController.h */,
-				EB6E85612B42A7EB0075D234 /* GTRecommendViewController.m */,
 				EB6E85632B42B1670075D234 /* GTNormalTableViewCell.h */,
 				EB6E85642B42B1670075D234 /* GTNormalTableViewCell.m */,
-				EB6E85662B42EFBB0075D234 /* GTDetailViewController.h */,
-				EB6E85672B42EFBB0075D234 /* GTDetailViewController.m */,
+				EB5951B62B80DA6E0021AD37 /* GTSearchBar.h */,
+				EB5951B72B80DA6E0021AD37 /* GTSearchBar.m */,
+				EB5951B92B80E6770021AD37 /* GTCommentManager.h */,
+				EB5951BA2B80E6770021AD37 /* GTCommentManager.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -228,6 +270,7 @@
 				EB317FCA2B4172CB006A581A /* Frameworks */,
 				EB317FCB2B4172CB006A581A /* Resources */,
 				C3B4FD9B780C7AA2F37A4364 /* [CP] Copy Pods Resources */,
+				EB5951732B80A7F50021AD37 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -245,6 +288,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
 					EB317FCC2B4172CB006A581A = {
@@ -275,6 +319,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB5951602B80A44D0021AD37 /* readme in Resources */,
 				EB317FE02B4172CB006A581A /* LaunchScreen.storyboard in Resources */,
 				EB317FDD2B4172CB006A581A /* Assets.xcassets in Resources */,
 			);
@@ -335,6 +380,7 @@
 				EB5951592B8057B40021AD37 /* GTLocation.m in Sources */,
 				EB6E85652B42B1670075D234 /* GTNormalTableViewCell.m in Sources */,
 				EB317FEB2B41ACAD006A581A /* SecondViewController.m in Sources */,
+				EB5951B82B80DA6E0021AD37 /* GTSearchBar.m in Sources */,
 				EB317FD82B4172CB006A581A /* ViewController.m in Sources */,
 				EB57A1832B7F40D600C68786 /* GTMediator.m in Sources */,
 				EB4253C52B66A06B00DAA9FA /* GTListLoader.m in Sources */,
@@ -346,6 +392,7 @@
 				EB59515C2B8085250021AD37 /* GTNotification.m in Sources */,
 				EB5A0C062B7B5F65002DB920 /* GTVedioCoverView.m in Sources */,
 				EB317FD22B4172CB006A581A /* AppDelegate.m in Sources */,
+				EB5951BB2B80E6770021AD37 /* GTCommentManager.m in Sources */,
 				EB317FE32B4172CB006A581A /* main.m in Sources */,
 				EB6667D22B7CB71100E36051 /* GTVideoPlayer.m in Sources */,
 			);
@@ -481,9 +528,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TabbarViewController/TabbarViewController.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = LVMX6XKLR9;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TabbarViewController/Lib",
@@ -507,6 +556,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = cedar.TabbarViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -518,9 +568,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TabbarViewController/TabbarViewController.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = LVMX6XKLR9;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TabbarViewController/Lib",
@@ -544,6 +596,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = cedar.TabbarViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
