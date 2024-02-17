@@ -1,0 +1,42 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - CocoaLumberjack (3.8.4):
+    - CocoaLumberjack/Core (= 3.8.4)
+  - CocoaLumberjack/Core (3.8.4)
+  - SDWebImage (5.18.11):
+    - SDWebImage/Core (= 5.18.11)
+  - SDWebImage/Core (5.18.11)
+
+DEPENDENCIES:
+  - AFNetworking
+  - CocoaLumberjack
+  - SDWebImage
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - CocoaLumberjack
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
+  CocoaLumberjack: df59726690390bb8aaaa585938564ba1c8dbbb44
+  SDWebImage: a3ba0b8faac7228c3c8eadd1a55c9c9fe5e16457
+
+PODFILE CHECKSUM: c02683e64321dbbbc425b9beaa9ac11332b0f0d1
+
+COCOAPODS: 1.14.3

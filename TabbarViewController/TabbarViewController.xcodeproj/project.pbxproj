@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2D207586A1E8A1B9A812918 /* libPods-TabbarViewController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B0EE664A31ADE9AC50910E /* libPods-TabbarViewController.a */; };
+		EB26795E2B46EED200DC1F65 /* GTDeleteCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB26795D2B46EED200DC1F65 /* GTDeleteCellView.m */; };
+		EB317FD22B4172CB006A581A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB317FD12B4172CB006A581A /* AppDelegate.m */; };
+		EB317FD82B4172CB006A581A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB317FD72B4172CB006A581A /* ViewController.m */; };
+		EB317FDD2B4172CB006A581A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB317FDC2B4172CB006A581A /* Assets.xcassets */; };
+		EB317FE02B4172CB006A581A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB317FDE2B4172CB006A581A /* LaunchScreen.storyboard */; };
+		EB317FE32B4172CB006A581A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB317FE22B4172CB006A581A /* main.m */; };
+		EB317FEB2B41ACAD006A581A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB317FEA2B41ACAD006A581A /* SecondViewController.m */; };
+		EB4253C52B66A06B00DAA9FA /* GTListLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4253C42B66A06B00DAA9FA /* GTListLoader.m */; };
+		EB57A1802B7F308E00C68786 /* GTSplashView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB57A17F2B7F308E00C68786 /* GTSplashView.m */; };
+		EB57A1832B7F40D600C68786 /* GTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = EB57A1822B7F40D600C68786 /* GTMediator.m */; };
+		EB57A1CD2B7F8F5500C68786 /* libStaticLibTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB57A1CB2B7F8F5500C68786 /* libStaticLibTest.a */; };
+		EB57A20C2B7F98F800C68786 /* FrameworkTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB57A20B2B7F98F800C68786 /* FrameworkTest.framework */; };
+		EB5A0C062B7B5F65002DB920 /* GTVedioCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5A0C052B7B5F65002DB920 /* GTVedioCoverView.m */; };
+		EB6667D22B7CB71100E36051 /* GTVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6667D12B7CB71100E36051 /* GTVideoPlayer.m */; };
+		EB667D3C2B7DA4B7009AEFD6 /* GTVideoToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = EB667D3B2B7DA4B7009AEFD6 /* GTVideoToolbar.m */; };
+		EB667D3F2B7DEB6A009AEFD6 /* GTScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = EB667D3E2B7DEB6A009AEFD6 /* GTScreen.m */; };
+		EB6E855F2B4299AE0075D234 /* GTVedioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6E855E2B4299AE0075D234 /* GTVedioViewController.m */; };
+		EB6E85622B42A7EB0075D234 /* GTRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6E85612B42A7EB0075D234 /* GTRecommendViewController.m */; };
+		EB6E85652B42B1670075D234 /* GTNormalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6E85642B42B1670075D234 /* GTNormalTableViewCell.m */; };
+		EB6E85682B42EFBB0075D234 /* GTDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6E85672B42EFBB0075D234 /* GTDetailViewController.m */; };
+		EB7B5D632B693F6C00673E85 /* GTListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7B5D622B693F6C00673E85 /* GTListItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18B0EE664A31ADE9AC50910E /* libPods-TabbarViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TabbarViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		551B8C515A6B0E06D39E514D /* Pods-TabbarViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabbarViewController.release.xcconfig"; path = "Target Support Files/Pods-TabbarViewController/Pods-TabbarViewController.release.xcconfig"; sourceTree = "<group>"; };
+		94E85B8F3DADDB8A44A0E346 /* Pods-TabbarViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabbarViewController.debug.xcconfig"; path = "Target Support Files/Pods-TabbarViewController/Pods-TabbarViewController.debug.xcconfig"; sourceTree = "<group>"; };
+		EB26795C2B46EED200DC1F65 /* GTDeleteCellView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTDeleteCellView.h; sourceTree = "<group>"; };
+		EB26795D2B46EED200DC1F65 /* GTDeleteCellView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTDeleteCellView.m; sourceTree = "<group>"; };
+		EB317FCD2B4172CB006A581A /* TabbarViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabbarViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB317FD02B4172CB006A581A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EB317FD12B4172CB006A581A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EB317FD62B4172CB006A581A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EB317FD72B4172CB006A581A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EB317FDC2B4172CB006A581A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB317FDF2B4172CB006A581A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB317FE12B4172CB006A581A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB317FE22B4172CB006A581A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB317FE92B41ACAD006A581A /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		EB317FEA2B41ACAD006A581A /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		EB4253C32B66A06B00DAA9FA /* GTListLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTListLoader.h; sourceTree = "<group>"; };
+		EB4253C42B66A06B00DAA9FA /* GTListLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTListLoader.m; sourceTree = "<group>"; };
+		EB57A17E2B7F308E00C68786 /* GTSplashView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTSplashView.h; sourceTree = "<group>"; };
+		EB57A17F2B7F308E00C68786 /* GTSplashView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTSplashView.m; sourceTree = "<group>"; };
+		EB57A1812B7F40D600C68786 /* GTMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTMediator.h; sourceTree = "<group>"; };
+		EB57A1822B7F40D600C68786 /* GTMediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTMediator.m; sourceTree = "<group>"; };
+		EB57A1CB2B7F8F5500C68786 /* libStaticLibTest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libStaticLibTest.a; sourceTree = "<group>"; };
+		EB57A1CE2B7F961100C68786 /* StaticLibTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticLibTest.h; sourceTree = "<group>"; };
+		EB57A20B2B7F98F800C68786 /* FrameworkTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FrameworkTest.framework; sourceTree = "<group>"; };
+		EB5A0C042B7B5F65002DB920 /* GTVedioCoverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTVedioCoverView.h; sourceTree = "<group>"; };
+		EB5A0C052B7B5F65002DB920 /* GTVedioCoverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTVedioCoverView.m; sourceTree = "<group>"; };
+		EB6667D02B7CB71100E36051 /* GTVideoPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTVideoPlayer.h; sourceTree = "<group>"; };
+		EB6667D12B7CB71100E36051 /* GTVideoPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTVideoPlayer.m; sourceTree = "<group>"; };
+		EB667D3A2B7DA4B7009AEFD6 /* GTVideoToolbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTVideoToolbar.h; sourceTree = "<group>"; };
+		EB667D3B2B7DA4B7009AEFD6 /* GTVideoToolbar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTVideoToolbar.m; sourceTree = "<group>"; };
+		EB667D3D2B7DEB6A009AEFD6 /* GTScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTScreen.h; sourceTree = "<group>"; };
+		EB667D3E2B7DEB6A009AEFD6 /* GTScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTScreen.m; sourceTree = "<group>"; };
+		EB6E855D2B4299AE0075D234 /* GTVedioViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTVedioViewController.h; sourceTree = "<group>"; };
+		EB6E855E2B4299AE0075D234 /* GTVedioViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTVedioViewController.m; sourceTree = "<group>"; };
+		EB6E85602B42A7EB0075D234 /* GTRecommendViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTRecommendViewController.h; sourceTree = "<group>"; };
+		EB6E85612B42A7EB0075D234 /* GTRecommendViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTRecommendViewController.m; sourceTree = "<group>"; };
+		EB6E85632B42B1670075D234 /* GTNormalTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTNormalTableViewCell.h; sourceTree = "<group>"; };
+		EB6E85642B42B1670075D234 /* GTNormalTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTNormalTableViewCell.m; sourceTree = "<group>"; };
+		EB6E85662B42EFBB0075D234 /* GTDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTDetailViewController.h; sourceTree = "<group>"; };
+		EB6E85672B42EFBB0075D234 /* GTDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTDetailViewController.m; sourceTree = "<group>"; };
+		EB7B5D612B693F6C00673E85 /* GTListItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTListItem.h; sourceTree = "<group>"; };
+		EB7B5D622B693F6C00673E85 /* GTListItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTListItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB317FCA2B4172CB006A581A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D207586A1E8A1B9A812918 /* libPods-TabbarViewController.a in Frameworks */,
+				EB57A20C2B7F98F800C68786 /* FrameworkTest.framework in Frameworks */,
+				EB57A1CD2B7F8F5500C68786 /* libStaticLibTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		163F9D68C1D429310D17EE00 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94E85B8F3DADDB8A44A0E346 /* Pods-TabbarViewController.debug.xcconfig */,
+				551B8C515A6B0E06D39E514D /* Pods-TabbarViewController.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8EA90BA6BDBD59E9787DF294 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18B0EE664A31ADE9AC50910E /* libPods-TabbarViewController.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB317FC42B4172CB006A581A = {
+			isa = PBXGroup;
+			children = (
+				EB317FCF2B4172CB006A581A /* TabbarViewController */,
+				EB317FCE2B4172CB006A581A /* Products */,
+				163F9D68C1D429310D17EE00 /* Pods */,
+				8EA90BA6BDBD59E9787DF294 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EB317FCE2B4172CB006A581A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB317FCD2B4172CB006A581A /* TabbarViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB317FCF2B4172CB006A581A /* TabbarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EB57A1CA2B7F8F3400C68786 /* Lib */,
+				EB317FD02B4172CB006A581A /* AppDelegate.h */,
+				EB317FD12B4172CB006A581A /* AppDelegate.m */,
+				EB4253C22B66A04300DAA9FA /* Loader */,
+				EB5A0C032B7B5E60002DB920 /* VideoController */,
+				EB7B5D5F2B693F2100673E85 /* Model */,
+				EB7B5D602B693F2A00673E85 /* View */,
+				EB317FDC2B4172CB006A581A /* Assets.xcassets */,
+				EB317FDE2B4172CB006A581A /* LaunchScreen.storyboard */,
+				EB317FE12B4172CB006A581A /* Info.plist */,
+				EB317FE22B4172CB006A581A /* main.m */,
+				EB667D3D2B7DEB6A009AEFD6 /* GTScreen.h */,
+				EB667D3E2B7DEB6A009AEFD6 /* GTScreen.m */,
+				EB57A17E2B7F308E00C68786 /* GTSplashView.h */,
+				EB57A17F2B7F308E00C68786 /* GTSplashView.m */,
+				EB57A1812B7F40D600C68786 /* GTMediator.h */,
+				EB57A1822B7F40D600C68786 /* GTMediator.m */,
+			);
+			path = TabbarViewController;
+			sourceTree = "<group>";
+		};
+		EB4253C22B66A04300DAA9FA /* Loader */ = {
+			isa = PBXGroup;
+			children = (
+				EB4253C32B66A06B00DAA9FA /* GTListLoader.h */,
+				EB4253C42B66A06B00DAA9FA /* GTListLoader.m */,
+			);
+			path = Loader;
+			sourceTree = "<group>";
+		};
+		EB57A1CA2B7F8F3400C68786 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				EB57A20B2B7F98F800C68786 /* FrameworkTest.framework */,
+				EB57A1CE2B7F961100C68786 /* StaticLibTest.h */,
+				EB57A1CB2B7F8F5500C68786 /* libStaticLibTest.a */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		EB5A0C032B7B5E60002DB920 /* VideoController */ = {
+			isa = PBXGroup;
+			children = (
+				EB6E855D2B4299AE0075D234 /* GTVedioViewController.h */,
+				EB6E855E2B4299AE0075D234 /* GTVedioViewController.m */,
+				EB5A0C042B7B5F65002DB920 /* GTVedioCoverView.h */,
+				EB5A0C052B7B5F65002DB920 /* GTVedioCoverView.m */,
+				EB6667D02B7CB71100E36051 /* GTVideoPlayer.h */,
+				EB6667D12B7CB71100E36051 /* GTVideoPlayer.m */,
+				EB667D3A2B7DA4B7009AEFD6 /* GTVideoToolbar.h */,
+				EB667D3B2B7DA4B7009AEFD6 /* GTVideoToolbar.m */,
+			);
+			path = VideoController;
+			sourceTree = "<group>";
+		};
+		EB7B5D5F2B693F2100673E85 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EB7B5D612B693F6C00673E85 /* GTListItem.h */,
+				EB7B5D622B693F6C00673E85 /* GTListItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EB7B5D602B693F2A00673E85 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EB26795C2B46EED200DC1F65 /* GTDeleteCellView.h */,
+				EB26795D2B46EED200DC1F65 /* GTDeleteCellView.m */,
+				EB317FD62B4172CB006A581A /* ViewController.h */,
+				EB317FD72B4172CB006A581A /* ViewController.m */,
+				EB317FE92B41ACAD006A581A /* SecondViewController.h */,
+				EB317FEA2B41ACAD006A581A /* SecondViewController.m */,
+				EB6E85602B42A7EB0075D234 /* GTRecommendViewController.h */,
+				EB6E85612B42A7EB0075D234 /* GTRecommendViewController.m */,
+				EB6E85632B42B1670075D234 /* GTNormalTableViewCell.h */,
+				EB6E85642B42B1670075D234 /* GTNormalTableViewCell.m */,
+				EB6E85662B42EFBB0075D234 /* GTDetailViewController.h */,
+				EB6E85672B42EFBB0075D234 /* GTDetailViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB317FCC2B4172CB006A581A /* TabbarViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB317FE62B4172CB006A581A /* Build configuration list for PBXNativeTarget "TabbarViewController" */;
+			buildPhases = (
+				9D523E7180FE4212147302ED /* [CP] Check Pods Manifest.lock */,
+				EB317FC92B4172CB006A581A /* Sources */,
+				EB317FCA2B4172CB006A581A /* Frameworks */,
+				EB317FCB2B4172CB006A581A /* Resources */,
+				C3B4FD9B780C7AA2F37A4364 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabbarViewController;
+			productName = TabbarViewController;
+			productReference = EB317FCD2B4172CB006A581A /* TabbarViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB317FC52B4172CB006A581A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					EB317FCC2B4172CB006A581A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = EB317FC82B4172CB006A581A /* Build configuration list for PBXProject "TabbarViewController" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB317FC42B4172CB006A581A;
+			productRefGroup = EB317FCE2B4172CB006A581A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB317FCC2B4172CB006A581A /* TabbarViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB317FCB2B4172CB006A581A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB317FE02B4172CB006A581A /* LaunchScreen.storyboard in Resources */,
+				EB317FDD2B4172CB006A581A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9D523E7180FE4212147302ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TabbarViewController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3B4FD9B780C7AA2F37A4364 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TabbarViewController/Pods-TabbarViewController-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TabbarViewController/Pods-TabbarViewController-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TabbarViewController/Pods-TabbarViewController-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB317FC92B4172CB006A581A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB667D3F2B7DEB6A009AEFD6 /* GTScreen.m in Sources */,
+				EB6E85682B42EFBB0075D234 /* GTDetailViewController.m in Sources */,
+				EB26795E2B46EED200DC1F65 /* GTDeleteCellView.m in Sources */,
+				EB6E85652B42B1670075D234 /* GTNormalTableViewCell.m in Sources */,
+				EB317FEB2B41ACAD006A581A /* SecondViewController.m in Sources */,
+				EB317FD82B4172CB006A581A /* ViewController.m in Sources */,
+				EB57A1832B7F40D600C68786 /* GTMediator.m in Sources */,
+				EB4253C52B66A06B00DAA9FA /* GTListLoader.m in Sources */,
+				EB667D3C2B7DA4B7009AEFD6 /* GTVideoToolbar.m in Sources */,
+				EB7B5D632B693F6C00673E85 /* GTListItem.m in Sources */,
+				EB6E85622B42A7EB0075D234 /* GTRecommendViewController.m in Sources */,
+				EB57A1802B7F308E00C68786 /* GTSplashView.m in Sources */,
+				EB6E855F2B4299AE0075D234 /* GTVedioViewController.m in Sources */,
+				EB5A0C062B7B5F65002DB920 /* GTVedioCoverView.m in Sources */,
+				EB317FD22B4172CB006A581A /* AppDelegate.m in Sources */,
+				EB317FE32B4172CB006A581A /* main.m in Sources */,
+				EB6667D22B7CB71100E36051 /* GTVideoPlayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB317FDE2B4172CB006A581A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB317FDF2B4172CB006A581A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB317FE42B4172CB006A581A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EB317FE52B4172CB006A581A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB317FE72B4172CB006A581A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94E85B8F3DADDB8A44A0E346 /* Pods-TabbarViewController.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LVMX6XKLR9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TabbarViewController/Lib",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TabbarViewController/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TabbarViewController/Lib",
+				);
+				MACH_O_TYPE = mh_execute;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cedar.TabbarViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB317FE82B4172CB006A581A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 551B8C515A6B0E06D39E514D /* Pods-TabbarViewController.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LVMX6XKLR9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TabbarViewController/Lib",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TabbarViewController/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TabbarViewController/Lib",
+				);
+				MACH_O_TYPE = mh_execute;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cedar.TabbarViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB317FC82B4172CB006A581A /* Build configuration list for PBXProject "TabbarViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB317FE42B4172CB006A581A /* Debug */,
+				EB317FE52B4172CB006A581A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB317FE62B4172CB006A581A /* Build configuration list for PBXNativeTarget "TabbarViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB317FE72B4172CB006A581A /* Debug */,
+				EB317FE82B4172CB006A581A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB317FC52B4172CB006A581A /* Project object */;
+}
