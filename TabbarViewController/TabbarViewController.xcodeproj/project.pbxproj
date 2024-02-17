@@ -20,6 +20,7 @@
 		EB57A1832B7F40D600C68786 /* GTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = EB57A1822B7F40D600C68786 /* GTMediator.m */; };
 		EB57A1CD2B7F8F5500C68786 /* libStaticLibTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB57A1CB2B7F8F5500C68786 /* libStaticLibTest.a */; };
 		EB5951592B8057B40021AD37 /* GTLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5951582B8057B40021AD37 /* GTLocation.m */; };
+		EB59515C2B8085250021AD37 /* GTNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = EB59515B2B8085250021AD37 /* GTNotification.m */; };
 		EB5A0C062B7B5F65002DB920 /* GTVedioCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5A0C052B7B5F65002DB920 /* GTVedioCoverView.m */; };
 		EB6667D22B7CB71100E36051 /* GTVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6667D12B7CB71100E36051 /* GTVideoPlayer.m */; };
 		EB667D3C2B7DA4B7009AEFD6 /* GTVideoToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = EB667D3B2B7DA4B7009AEFD6 /* GTVideoToolbar.m */; };
@@ -57,6 +58,8 @@
 		EB57A1CB2B7F8F5500C68786 /* libStaticLibTest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libStaticLibTest.a; sourceTree = "<group>"; };
 		EB5951572B8057B40021AD37 /* GTLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTLocation.h; sourceTree = "<group>"; };
 		EB5951582B8057B40021AD37 /* GTLocation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTLocation.m; sourceTree = "<group>"; };
+		EB59515A2B8085250021AD37 /* GTNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTNotification.h; sourceTree = "<group>"; };
+		EB59515B2B8085250021AD37 /* GTNotification.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTNotification.m; sourceTree = "<group>"; };
 		EB5A0C042B7B5F65002DB920 /* GTVedioCoverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTVedioCoverView.h; sourceTree = "<group>"; };
 		EB5A0C052B7B5F65002DB920 /* GTVedioCoverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTVedioCoverView.m; sourceTree = "<group>"; };
 		EB6667D02B7CB71100E36051 /* GTVideoPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTVideoPlayer.h; sourceTree = "<group>"; };
@@ -147,6 +150,8 @@
 				EB57A1822B7F40D600C68786 /* GTMediator.m */,
 				EB5951572B8057B40021AD37 /* GTLocation.h */,
 				EB5951582B8057B40021AD37 /* GTLocation.m */,
+				EB59515A2B8085250021AD37 /* GTNotification.h */,
+				EB59515B2B8085250021AD37 /* GTNotification.m */,
 			);
 			path = TabbarViewController;
 			sourceTree = "<group>";
@@ -338,6 +343,7 @@
 				EB6E85622B42A7EB0075D234 /* GTRecommendViewController.m in Sources */,
 				EB57A1802B7F308E00C68786 /* GTSplashView.m in Sources */,
 				EB6E855F2B4299AE0075D234 /* GTVedioViewController.m in Sources */,
+				EB59515C2B8085250021AD37 /* GTNotification.m in Sources */,
 				EB5A0C062B7B5F65002DB920 /* GTVedioCoverView.m in Sources */,
 				EB317FD22B4172CB006A581A /* AppDelegate.m in Sources */,
 				EB317FE32B4172CB006A581A /* main.m in Sources */,
