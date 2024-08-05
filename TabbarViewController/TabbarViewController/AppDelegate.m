@@ -14,6 +14,7 @@
 #import <execinfo.h>
 #import "GTLocation.h"
 #import "GTNotification.h"
+#import "TestViewController.h"
 
 @interface AppDelegate ()<UITabBarControllerDelegate>
 
@@ -33,6 +34,9 @@
     UITabBarController *tabbarController = [[UITabBarController alloc] init];
     tabbarController.tabBar.backgroundColor = [UIColor lightGrayColor];
     
+    TestViewController *testVC = [[TestViewController alloc] init];
+    testVC.tabBarItem.title = @"测试";
+    
     ViewController *viewController = [[ViewController alloc] init];
     viewController.tabBarItem.title = @"首页";
     
@@ -43,7 +47,7 @@
     
     GTRecommendViewController *controller4 = [[GTRecommendViewController alloc] init];
     
-    NSArray *viewControllers = @[viewController, controller2, controller3, controller4];
+    NSArray *viewControllers = @[testVC, viewController, controller2, controller3, controller4];
     tabbarController.viewControllers = viewControllers;
     tabbarController.delegate = self;
     
